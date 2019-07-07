@@ -1,0 +1,91 @@
+<!doctype html> 
+<html> 
+	<head> 
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+		<script type="text/javascript" src="data.json"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<meta charset="utf-8"> 
+		<title>Парсинг JSON файла</title> 
+	</head> 
+	<body onload="on_page_load();"> 
+		
+		<table id="table" border="1">
+			<tr>
+				<th colspan="11">transaction</th>
+				<th colspan="5">user</th>
+				<th colspan="5">payment_details</th>
+				<th colspan="9">purchase</th>
+			</tr>
+			<tr>
+				<th rowspan="2">id</th>
+				<th colspan="2">project</th>
+				<th colspan="2">payment_method</th>
+				<th rowspan="2">transferDate</th>
+				<th rowspan="2">refundReason</th>
+				<th rowspan="2">status</th>
+				<th rowspan="2">externalId</th>
+				<th rowspan="2">dryRun</th>
+				<th rowspan="2">isRefundAllowed</th>
+				<th rowspan="2">id</th>
+				<th rowspan="2">name</th>
+				<th rowspan="2">email</th>
+				<th rowspan="2">phone</th>
+				<th rowspan="2">country</th>
+				<th colspan="3">payment</th>
+				<th colspan="2">sales_tax</th>
+				<th colspan="2">virtual_currency</th>
+				<th rowspan="2">virtual_items</th>
+				<th colspan="2">simple_checkout</th>
+				<th colspan="3">pin_codes</th>
+				<th>subscription</th>
+			</tr>
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>id</th>
+				<th>name</th>
+				
+				<th>currency</th>
+				<th>amount</th>
+				<th>amount_from_ps</th>
+				<th>percent</th>
+				<th>amount</th>
+				
+				<th>amount</th>
+				<th>name</th>
+				<th>amount</th>
+				<th>currency</th>
+				<th>amount</th>
+				<th>currency</th>
+				<th>content</th>
+				<th>name</th>
+			</tr>
+		</table>
+	
+		<!--<table id="trasactionsTable" border="1">
+			<tr>
+				<th>id</th>
+				<th>projectId</th>
+				<th>projectName</th>
+				<th>paymentMethodId</th>
+				<th>paymentMethodName</th>
+				<th>transferDate</th>
+				<th>refundReason</th>
+				<th>status</th>
+				<th>externalId</th>
+				<th>dryRun</th>
+				<th>isRefundAllowed</th>
+			</tr>
+		</table> 
+		
+		<table id="usersTable" border="1">
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>email</th>
+				<th>phone</th>
+				<th>country</th>
+			</tr>
+		</table>-->
+	</body> 
+</html>
